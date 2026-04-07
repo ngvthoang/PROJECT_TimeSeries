@@ -44,6 +44,7 @@ Does investor attention (proxied by Google Trends Search Volume Index - SVI) hav
 - **Normalization:** $SVI_{normalized} = (SVI - \mu) / \sigma$.
 - **Smoothing:** Simple Moving Average (k=3 or 5) to reduce noise.
 - **Composite Index:** Equal-weighted average of smoothed keyword series.
+- **PCA:** Extract first principal component if multiple keywords are used.
 
 ### 3.3 Weekly Aggregation
 
